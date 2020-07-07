@@ -1,0 +1,30 @@
+onesairam
+==========
+
+step-1)downloads rabbitmq.exe and erlang.exe
+https://www.rabbitmq.com/install-windows.html
+
+https://www.erlang.org/downloads
+
+click -->
+OTP 22.3 Windows 64-bit Binary File (95003088)
+
+step-2)install first erlang.exe and then install rabbitmq.exe.
+
+rabbitmq server start
+
+The requested service has already been started.
+
+More help is available by typing NET HELPMSG 2182.
+
+
+C:\Windows\system32>
+
+enable rabbitmq-plugins in rabbitmq_server-3.8.3\sbin>
+
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.3\sbin>rabbitmq-plugins enable rabbitmq_management
+
+http://localhost:15672/
+
+username:guest
+password name is :guest
